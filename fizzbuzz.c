@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main()
+int main()
 {
 	int i, P = 3, Q = 5;
 
@@ -11,4 +11,6 @@ main()
 		else if (i % P == 0 && i % Q == 0) printf("Fizz Buzz\n");
 		else printf("%d\n", i);
 	}
+	
+	return 0;
 }

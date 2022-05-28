@@ -1,16 +1,25 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 	int i, P = 3, Q = 5;
 
-        for (i = 1; i <= 60; i++) {
-		if (i % P == 0) {
+        for (i = 1; i <= 60; i++)
+	{
+		if (i % P == 0)
+		{
                         printf("Fizz\n");
-                } else if (i % Q == 0) {
+                }
+		else if (i % Q == 0)
+		{
                         printf("Buzz\n");
-                } else if (i % P == 0 && i % Q == 0) {
+                }
+		else if (i % P == 0 && i % Q == 0)
+		{
                         printf("Fizz Buzz\n");
-                } else {
+                }
+		else
+		{
                         printf("%d\n", i);
                 }
 	}

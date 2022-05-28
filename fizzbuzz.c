@@ -2,7 +2,8 @@
 
 int main()
 {
-	int i, P = 3, Q = 5;
+	int i;
+	int P = 3, Q = 5;
 
         for (i = 1; i <= 60; i++)
 	{

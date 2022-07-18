@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-int main() {
-	int i;
+int main() 
+{
 	int P = 3, Q = 5;
-
-        for (i = 1; i <= 60; i++) {
+        for (int i = 1; i <= 60; i++) {
 		if (i % P == 0) {
                         printf("Fizz\n");
                 } else if (i % Q == 0) {
@@ -15,6 +14,5 @@ int main() {
                         printf("%d\n", i);
                 }
 	}
-	
 	return 0;
 }
